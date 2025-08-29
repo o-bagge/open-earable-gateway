@@ -1,0 +1,10 @@
+default: open-earable-gateway
+build_dir: /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build
+domains:
+  - name: open-earable-gateway
+    build_dir: /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/open-earable-gateway
+  - name: ipc_radio
+    build_dir: /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/ipc_radio
+flash_order:
+  - ipc_radio
+  - open-earable-gateway

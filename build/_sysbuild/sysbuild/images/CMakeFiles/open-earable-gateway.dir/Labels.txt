@@ -1,0 +1,13 @@
+# Target labels
+ open-earable-gateway
+# Source files and their labels
+/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/CMakeFiles/open-earable-gateway
+/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/CMakeFiles/open-earable-gateway.rule
+/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/CMakeFiles/open-earable-gateway-complete.rule
+/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-build.rule
+/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-configure.rule
+/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-download.rule
+/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-install.rule
+/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-mkdir.rule
+/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-patch.rule
+/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-update.rule

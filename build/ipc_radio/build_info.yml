@@ -1,0 +1,52 @@
+cmake:
+  application:
+    configuration-dir: /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/sysbuild/ipc_radio
+    source-dir: /opt/nordic/ncs/v3.0.1/nrf/applications/ipc_radio
+  board:
+    name: nrf5340_audio_dk
+    path:
+     - /opt/nordic/ncs/v3.0.1/zephyr/boards/nordic/nrf5340_audio_dk
+    qualifiers: nrf5340/cpunet
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - /opt/nordic/ncs/v3.0.1/nrf/dts/bindings
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/bindings
+    files:
+     - /opt/nordic/ncs/v3.0.1/zephyr/boards/nordic/nrf5340_audio_dk/nrf5340_audio_dk_nrf5340_cpunet.dts
+    include-dirs:
+     - /opt/nordic/ncs/v3.0.1/nrf/include
+     - /opt/nordic/ncs/v3.0.1/nrf/dts/common
+     - /opt/nordic/ncs/v3.0.1/nrf/dts/riscv
+     - /opt/nordic/ncs/v3.0.1/nrf/dts/arm
+     - /opt/nordic/ncs/v3.0.1/nrf/dts
+     - /opt/nordic/ncs/v3.0.1/zephyr/include
+     - /opt/nordic/ncs/v3.0.1/zephyr/include/zephyr
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/common
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/x86
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/xtensa
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/sparc
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/riscv
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/posix
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/nios2
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/arm64
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/arm
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/arc
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts
+  kconfig:
+    files:
+     - /opt/nordic/ncs/v3.0.1/zephyr/boards/nordic/nrf5340_audio_dk/nrf5340_audio_dk_nrf5340_cpunet_defconfig
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/sysbuild/ipc_radio/prj.conf
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/ipc_radio/zephyr/.config.sysbuild
+    user-files:
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/sysbuild/ipc_radio/prj.conf
+  toolchain:
+    name: zephyr
+    path: /opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk
+  vendor-specific:
+    nordic:
+      svdfile: /opt/nordic/ncs/v3.0.1/modules/hal/nordic/nrfx/mdk/nrf5340_network.svd
+  zephyr:
+    version: 4.0.99
+    zephyr-base: /opt/nordic/ncs/v3.0.1/zephyr
+version: 0.1.0

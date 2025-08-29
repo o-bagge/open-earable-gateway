@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway
+    source-dir: /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway
+  board:
+    name: nrf5340_audio_dk
+    path:
+     - /opt/nordic/ncs/v3.0.1/zephyr/boards/nordic/nrf5340_audio_dk
+    qualifiers: nrf5340/cpuapp
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - /opt/nordic/ncs/v3.0.1/nrf/dts/bindings
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/bindings
+    files:
+     - /opt/nordic/ncs/v3.0.1/zephyr/boards/nordic/nrf5340_audio_dk/nrf5340_audio_dk_nrf5340_cpuapp.dts
+    include-dirs:
+     - /opt/nordic/ncs/v3.0.1/nrf/include
+     - /opt/nordic/ncs/v3.0.1/nrf/dts/common
+     - /opt/nordic/ncs/v3.0.1/nrf/dts/riscv
+     - /opt/nordic/ncs/v3.0.1/nrf/dts/arm
+     - /opt/nordic/ncs/v3.0.1/nrf/dts
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/include
+     - /opt/nordic/ncs/v3.0.1/zephyr/include
+     - /opt/nordic/ncs/v3.0.1/zephyr/include/zephyr
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/common
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/x86
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/xtensa
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/sparc
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/riscv
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/posix
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/nios2
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/arm64
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/arm
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts/arc
+     - /opt/nordic/ncs/v3.0.1/zephyr/dts
+  kconfig:
+    extra-user-files:
+     - unicast_client/overlay-unicast_client.conf
+    files:
+     - /opt/nordic/ncs/v3.0.1/zephyr/boards/nordic/nrf5340_audio_dk/nrf5340_audio_dk_nrf5340_cpuapp_defconfig
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/prj_release.conf
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/boards/nrf5340_audio_dk_nrf5340_cpuapp_release.conf
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/unicast_client/overlay-unicast_client.conf
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/open-earable-gateway/zephyr/.config.sysbuild
+    user-files:
+     - prj_release.conf
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/boards/nrf5340_audio_dk_nrf5340_cpuapp_release.conf
+  toolchain:
+    name: zephyr
+    path: /opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk
+  vendor-specific:
+    nordic:
+      svdfile: /opt/nordic/ncs/v3.0.1/modules/hal/nordic/nrfx/mdk/nrf5340_application.svd
+  zephyr:
+    version: 4.0.99
+    zephyr-base: /opt/nordic/ncs/v3.0.1/zephyr
+version: 0.1.0

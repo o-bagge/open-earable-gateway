@@ -1,0 +1,24 @@
+cmake:
+  board:
+    name: nrf5340_audio_dk
+    path:
+     - /opt/nordic/ncs/v3.0.1/zephyr/boards/nordic/nrf5340_audio_dk
+    qualifiers: nrf5340/cpuapp
+    revision: 
+  images:
+   - name: open-earable-gateway
+     source-dir: /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway
+     type: MAIN
+   - name: ipc_radio
+     source-dir: 
+  kconfig:
+    files:
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/empty.conf
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/empty.conf
+    user-files:
+     - /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/empty.conf
+version: 0.1.0
+west:
+  command: /opt/nordic/ncs/toolchains/ef4fc6722e/bin/west build --build-dir /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build /Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway --pristine --board nrf5340_audio_dk/nrf5340/cpuapp --sysbuild -- -DEXTRA_CONF_FILE=unicast_client/overlay-unicast_client.conf -DCONF_FILE=prj_release.conf
+  topdir: /opt/nordic/ncs/v3.0.1
+  version: 1.2.0

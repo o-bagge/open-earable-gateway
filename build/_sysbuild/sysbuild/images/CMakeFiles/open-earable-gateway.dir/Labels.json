@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/CMakeFiles/open-earable-gateway"
+		},
+		{
+			"file" : "/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/CMakeFiles/open-earable-gateway.rule"
+		},
+		{
+			"file" : "/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/CMakeFiles/open-earable-gateway-complete.rule"
+		},
+		{
+			"file" : "/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-build.rule"
+		},
+		{
+			"file" : "/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-configure.rule"
+		},
+		{
+			"file" : "/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-download.rule"
+		},
+		{
+			"file" : "/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-install.rule"
+		},
+		{
+			"file" : "/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-mkdir.rule"
+		},
+		{
+			"file" : "/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-patch.rule"
+		},
+		{
+			"file" : "/Users/oliver/Documents/Uni/HiWi/earable_main/open-earable-gateway/build/_sysbuild/sysbuild/images/open-earable-gateway-prefix/src/open-earable-gateway-stamp/open-earable-gateway-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"open-earable-gateway"
+		],
+		"name" : "open-earable-gateway"
+	}
+}
